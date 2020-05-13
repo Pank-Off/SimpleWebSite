@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(../img/slider-back.jpg);
+    position: relative;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    /* Style for "HOME     P" */
+    color: #8c8c8c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    text-transform: uppercase;
+
+    /* Text style for "PRODUCTS" */
+    font-weight: 300;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    /* Style for "HOME     P" */
+    font-size: 14px;
+    text-transform: uppercase;
+    /* Text style for "HOME" */
+    color: #212121;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+    text-decoration: none;
+    float: left;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    /* Style for "TRENDING" */
+
+    color: #43a047;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "TRENDING" */
+    letter-spacing: 1.8px;
+}
+
+.slider-h2 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.slider-content {
+    /* Style for "Seat and b" */
+
+    color: #6c6c6c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 400px;
+    height: 38px;
+    margin-top: 17px;
+    margin-bottom: 34px;
+}
+
+.button {
+    /* Style for "back" */
+    /* Style for "Order Us" */
+    color: #212121;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    /* Text style for "Order Us" */
+    letter-spacing: 3.6px;
+    /* Style for "back" */
+    width: 212px;
+    height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover:after {
+    content: url(../img/arrow.svg);
+    display: inline-block;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.tab-controll {
+    padding-bottom: 50px;
+    padding-top: 120px;
+}
+
+.menu-link-FN-active {
+    /* Style for "Featured" */
+    width: 158px;
+    height: 27px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
+
+.menu-link-FN {
+    /* Style for "New" */
+    width: 80px;
+    height: 25px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid #6c6c6c;
+    padding-left: 31px;
+    padding-bottom: 2px;
+}
+
+.menu-link-FN:hover {
+    color: #212121;
+}
+
+.explore {
+    float: right;
+    /* Style for "explore al" */
+    width: 158px;
+    height: 13px;
+    color: #212121;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "explore al" */
+    letter-spacing: 3.6px;
+    text-decoration: none;
+    padding-top: 16px;
+}
+
+.explore:hover:after {
+    float: right;
+    position: relative;
+    bottom: 24px;
+    left: 10px;
+    content: url(../img/arrow.svg);
+}
+
+.tab-content {
+    padding-top: 50px;
+    position: relative;
+}
+
+.first_img{
+     float:left; margin-right: 19px;
+}
+.text_and_img {
+    position: relative;
+    float: left;
+    height: 270px;
+}
+
+.hitman {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+.hitman a {
+    /* Style for "back" */
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 24px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 62px;
+    margin-left: 111px;
+}
+
+.hitman a img {
+    width: 48px;
+    height: 20px;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+
+.hitman h3 {
+    /* Style for "Fishnet Ch" */
+    width: 270px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    text-align: center;
+    padding-top: 19px
+}
+
+.hitman p {
+    text-align: center;
+    width: 215px;
+    /* Style for "Seat and b" */
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.91px;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+
+.text_and_img:hover .hitman {
+    background-color: rgba(255,255,255,0.75);
+    visibility: visible;
+     outline: 1px solid blue;
+}
+
+.product {
+    padding-left: 19px;
+}
+
+.product img:hover {
+    outline: 1px solid blue;
+}
+
+.col-md-4 a img:hover {
+    outline: 1px solid blue;
+}
+
+.promo-product {
+    padding-top: 120px;
+    height: 683px;
+}
+
+.promo-content1 {
+    /* Style for "promo-img1" */
+    width: 683px;
+    height: 683px;
+    background-image: url(../img/promo-img1.jpg);
+    float: left;
+}
+
+.promo-content2 {
+    /* Style for "promo-img1" */
+    width: 683px;
+    height: 683px;
+    background-image: url(../img/promo-img.jpg);
+    float: right;
+}
+
+.promo-text {
+    margin-top: 228px;
+    padding-left: 30px;
+}
+
+.promo-exclusive {
+    /* Style for "exclusive" */
+    width: 115px;
+    height: 13px;
+    color: #1e88e5;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "exclusive" */
+    letter-spacing: 1.8px;
+}
+
+.promo-h2-ex {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+        padding-top: 25px;
+}
+
+.title {
+    padding-top: 119px;
+    padding-bottom: 64px;
+}
+
+.trend_prod {
+    /* Style for "Trending P" */
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
+}
+
+.products {
+    padding-bottom: 120px;
+}
+
+.trend_img {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.sliderHotDeal {
+    height: 800px;
+    background-image: url(../img/slider.jpg);
+    position: relative;
+}
+
+.slider-hotDeal {
+    /* Style for "Hot deal" */
+    color: #e53935;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "Hot deal" */
+    letter-spacing: 1.8px;
+}
+
+.slider-text_hotDeal {
+    position: absolute;
+    top: 287px;
+}
+
+.exclusive-product {
+    height: 570px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.slider-content-ex {
+    /* Style for "Seat and b" */
+width: 350px;
+    color: #6c6c6c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    height: 38px;
+    margin-top: 17px;
+    margin-bottom: 34px;
+}
+.exclusive_img {
+    float: left;
+    width: 270px;
+    height: 270px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.exclusive_img:hover {
+    outline: 1px solid blue;
+}
+
+.exclusive-content {
+    height: 570px;
+    width: 570px;
+    background-image: url(../img/product-1-lg.jpg);
+    float: left;
+}
+
+.mobile-app {
+    height: 516px;
+    width: 1366px;
+    background-image: url(../img/back-img.jpg);
+    position: relative;
+}
+
+.mobile-text {
+    position: absolute;
+    top: 150px;
+    padding-left: 99px;
+}
+
+.app {
+    /* Style for "mobile app" */
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "mobile app" */
+    letter-spacing: 1.8px;
+}
+
+.FFF {
+    /* Style for "Find. Foll" */
+    color: #212121;
+    font-family: "Montserrat - Thin";
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.Save {
+    /* Style for "Save your" */
+    color: #6c6c6c;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 33px;
+}
+
+.store {
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.footer {
+    /* Style for "footer-bac" */
+    width: 1170px;
+    height: 400px;
+    background-color: #f7f7f7;
+}
+
+.head_foot {
+    padding-top: 100px;
+}
+
+.contact_us {
+    /* Style for "Contact Us" */
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "C, ontact" */
+    letter-spacing: 1.8px;
+    float: left;
+    padding-right: 179px;
+    padding-bottom: 25px;
+}
+
+.foot_text {
+    /* Style for "132A Bridg" */
+    width: 225px;
+    height: 102px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    float: left;
+}
+
+.sub {
+    width: 375px;
+    position: relative;
+    bottom: 80px;
+    float: right;
+
+}
+
+.with_padding {
+    padding-right: 96px;
+}
+
+.info {
+    list-style-type: none;
+    float: left;
+    padding-right: 103px;
+}
+
+.info-text {
+    /* Style for "Sales term" */
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "Sales term" */
+    letter-spacing: 0.7px;
+    text-decoration: none;
+}
+
+.foot_end {
+    /* Style for "Terms & Co" */
+    height: 12px;
+    width: 33%;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "T, erms &" */
+    letter-spacing: 0.6px;
+    float: left;
+}
+
+.left_foot {
+
+    text-align: left;
+}
+
+.center_foot {
+    text-align: center;
+}
+
+.right_foot {
+    text-align: right;
+}
+
+input[type="search"] {
+    width: 400px;
+    height: 48px;
+    float: right;
+    position: relative;
+    bottom: 25px;
+    left: 400px
+}
+.telega{
+       position: relative;
+    left: 300px;
+    top: 70px;
+}
+
+
+.social-link {
+    margin-top: -5px;
+}

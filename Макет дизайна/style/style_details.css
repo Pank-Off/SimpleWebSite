@@ -1,0 +1,132 @@
+.headerDetails {
+    /* Style for "links" */
+    width: 1366px;
+    height: 70px;
+    background-color: #f4f4f4;
+   margin-bottom: 72px;
+}
+.padding-bottom{
+    padding-bottom:100px;
+}
+.mainDetails{
+    padding-top:29px;
+}
+.ulDetails{
+ width: 700px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.detailsList{
+    list-style-type: none;
+    float: left;
+}
+.detailsLink-active {
+    width: 647px;
+    height: 13px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    text-decoration: none;
+}
+
+.detailsLink {
+    /* Style for "All" */
+    width: 647px;
+    height: 13px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "All" */
+
+    /* Text style for "HOME     O" */
+    letter-spacing: 1.8px;
+     text-decoration: none;
+    padding-left:30px;
+}
+
+.detailsLink:hover{
+    color:#212121;
+}
+
+.Details{
+   /* padding-bottom: 245px;*/
+}
+.details-info{
+    text-align: center;
+}
+.promo-h2{
+    padding-top: 47px;
+    padding-bottom: 23px;
+}
+.slider-hotDeal{
+    margin-top: -25px;
+}
+.price{
+    /* Style for "$ 36.7/sq" */
+color: #212121;
+font-family:unset;
+
+font-weight: 300;
+line-height: 48.02px;
+    padding-bottom: 31px;
+    padding-top:25px
+}
+.dollar, .sq{
+    /* Text style for "" */
+font-size: 36px;
+
+}
+.cost{
+    /* Text style for "36.7" */
+    font-size: 72px;
+text-transform: uppercase;
+}
+.red_button{
+    /* Style for "btn" */
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+    width: 510px;
+ box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+   background-color: #f44336;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 41px;
+}
+.red_button:hover:after{
+    content: url(../img/products-details/arrow.svg);
+    display: inline-block;
+    position: relative;
+    left:15px;
+    top:3px;
+}
+.details-text{
+    /* Style for "The majest" */
+color: #212121;
+font-family: unset;
+font-size: 16px;
+font-weight: 300;
+line-height: 24.01px;
+/* Text style for "The majest" */
+letter-spacing: 0.4px;
+    text-align: left;
+}
+.details_img{
+    float:left;
+    padding-right:61px;
+}
+.mini-products{
+    width:230px;
+    margin: 0 auto;
+}
+
